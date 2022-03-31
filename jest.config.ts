@@ -6,4 +6,9 @@ export default {
   transform: {
     ".+\\.ts$": "ts-jest",
   },
+  preset: "ts-jest",
+  clearMocks: true,
+  collectCoverage: false,
+  testMatch: ["**/*.spec.ts"],
+  coverageProvider: "v8",
 };
