@@ -6,6 +6,4 @@ export default {
   transform: {
     ".+\\.ts$": "ts-jest",
   },
-  collectCoverage: true,
-  coverageProvider: "v8",
 };
